@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/VoicolabsAI/static/css/main.2d5abbcc.css",
+    "main.js": "/VoicolabsAI/static/js/main.261d22cd.js",
+    "index.html": "/VoicolabsAI/index.html",
+    "main.2d5abbcc.css.map": "/VoicolabsAI/static/css/main.2d5abbcc.css.map",
+    "main.261d22cd.js.map": "/VoicolabsAI/static/js/main.261d22cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d5abbcc.css",
+    "static/js/main.261d22cd.js"
+  ]
+}
