@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/VoicolabsAI/static/css/main.2d5abbcc.css",
-    "main.js": "/VoicolabsAI/static/js/main.261d22cd.js",
+    "main.css": "/VoicolabsAI/static/css/main.10e1cbd9.css",
+    "main.js": "/VoicolabsAI/static/js/main.8eed3426.js",
     "index.html": "/VoicolabsAI/index.html",
-    "main.2d5abbcc.css.map": "/VoicolabsAI/static/css/main.2d5abbcc.css.map",
-    "main.261d22cd.js.map": "/VoicolabsAI/static/js/main.261d22cd.js.map"
+    "main.10e1cbd9.css.map": "/VoicolabsAI/static/css/main.10e1cbd9.css.map",
+    "main.8eed3426.js.map": "/VoicolabsAI/static/js/main.8eed3426.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d5abbcc.css",
-    "static/js/main.261d22cd.js"
+    "static/css/main.10e1cbd9.css",
+    "static/js/main.8eed3426.js"
   ]
 }
