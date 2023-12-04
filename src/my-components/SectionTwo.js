@@ -169,8 +169,14 @@ const voiceOptions = ["en-US-Neural2-A", "en-US-Neural2-D", "en-US-Neural2-I", "
           </div>
         </div>
 
-        <div className="shadow-lg shadow-indigo-300/40 mt-14 py-4">
+        {/* <div className="shadow-lg shadow-indigo-300/40 bg-red-300">
 
+        
+            </div> */}
+
+        <div className="flex flex-col lg:justify-end  sm:justify-start sm:mt-10 lg:mt-16 lg:mr-24  lg:ml-9  shadow-lg shadow-indigo-400/40 md:mx-20  ">
+
+        <div className="shadow-lg shadow-indigo-300/40 ">
         <select
               value={gender}
               onChange={handleGenderChange}
@@ -196,7 +202,7 @@ const voiceOptions = ["en-US-Neural2-A", "en-US-Neural2-D", "en-US-Neural2-I", "
             </select>
             </div>
 
-        <div className="flex flex-col lg:justify-end  sm:justify-start sm:mt-10 lg:mt-16 lg:mr-24  lg:ml-9  shadow-lg shadow-indigo-400/40 ">
+
           <div className=" flex w-full px-2 py-2">
             <textarea
               rows={1}
