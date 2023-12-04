@@ -12,11 +12,7 @@ import {
 // Add the solid icons to the library
 library.add(faCoffee);
 
-
-
 const Header = () => {
-
-
   const [toggleMenu, setToggleMenu] = useState("hidden");
 
   const closeMenu = () => {
@@ -50,17 +46,18 @@ const Header = () => {
 
   return (
     <div>
-            <div className={`bg-gray-950 fixed ${toggleMenu} inset-0 cursor-pointer z-50`}>
-        <p className="text-center text-custom text-white text-3xl mt-5 border-2 border-red-900 border-solid cursor-pointer" onClick={closeMenu}>
+      <div
+        className={`bg-gray-950 fixed ${toggleMenu} inset-0 cursor-pointer z-50`}
+      >
+        <p
+          className="text-center text-custom text-white text-3xl mt-5 border-2 border-red-900 border-solid cursor-pointer"
+          onClick={closeMenu}
+        >
           <FontAwesomeIcon icon={faClose} />
         </p>
         <ul className="text-center text-custom text-2xl text-white cursor-pointer font-bold relative top-40">
-          <li className="pb-5 hover:opacity-90 relative right-20 ">
-            Home
-          </li>
-          <li className="pb-5 hover:opacity-90 relative right-10 ">
-            Produts
-          </li>
+          <li className="pb-5 hover:opacity-90 relative right-20 ">Home</li>
+          <li className="pb-5 hover:opacity-90 relative right-10 ">Produts</li>
           <li className="pb-5 opacity-80  hover:opacity-90 relative right-15 ">
             Resources
           </li>
@@ -93,7 +90,13 @@ const Header = () => {
                   showResource ? "block" : "hidden"
                 }  `}
               >
-                <li className="text-sm"> Joj Text To Speech API</li>
+                <li className="text-sm">
+                  {" "}
+                  <a href="https://rapidapi.com/jojapi/api/joj-text-to-speech/">
+                    {" "}
+                    Joj Text To Speech API{" "}
+                  </a>{" "}
+                </li>
               </ul>
             </div>
             <div onClick={showCompanyFunction}>

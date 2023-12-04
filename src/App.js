@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./my-components/Header";
 import SectionTwo from "./my-components/SectionTwo";
 import SubSection from "./my-components/SubSection";
+import Footer from "./my-components/Footer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <SectionTwo />
       <SubSection />
+      <Footer />
     </div>
   );
 }
