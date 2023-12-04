@@ -1,13 +1,15 @@
-import './App.css';
-import Header from './my-components/Header'
-import SectionTwo from './my-components/SectionTwo';
+import "./App.css";
+import Header from "./my-components/Header";
+import SectionTwo from "./my-components/SectionTwo";
+import SubSection from "./my-components/SubSection";
 
 function App() {
   return (
     <div>
-   <Header />
-   <SectionTwo />
-   </div>
+      <Header />
+      <SectionTwo />
+      <SubSection />
+    </div>
   );
 }
 
