@@ -12,7 +12,7 @@ library.add(faCoffee, faDownload, faPlayCircle);
 
 const SectionTwo = () => {
 const [gender, setGender] = useState("MALE");
-const [selectedVoice, setSelectedVoice] = useState("en-US-Neural2-J	");
+const [selectedVoice, setSelectedVoice] = useState("en-US-Neural2-J");
 
 const genderOptions = ["MALE"];
 const voiceOptions = ["en-US-Neural2-D", "en-US-Neural2-I", "en-US-Neural2-J", "en-US-News-N", "en-US-Polyglot-1", "en-US-Standard-A"]
